@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EE02036F1E6D9C0D007077E6 /* csvtest.csv in Resources */ = {isa = PBXBuildFile; fileRef = EE02036E1E6D9C0D007077E6 /* csvtest.csv */; };
-		EE0203711E6D9E29007077E6 /* NamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0203701E6D9E29007077E6 /* NamesTableViewController.swift */; };
 		EE3D4D3B1E6EFE9200019625 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D4D3A1E6EFE9200019625 /* Player.swift */; };
 		EEA9794D1E65FAB000E312F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9794C1E65FAB000E312F3 /* AppDelegate.swift */; };
 		EEA979521E65FAB000E312F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA979501E65FAB000E312F3 /* Main.storyboard */; };
@@ -16,6 +15,7 @@
 		EEA979571E65FAB000E312F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA979551E65FAB000E312F3 /* LaunchScreen.storyboard */; };
 		EEA979621E65FAB000E312F3 /* TextFileCSVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA979611E65FAB000E312F3 /* TextFileCSVTests.swift */; };
 		EEA9796D1E65FAB000E312F3 /* TextFileCSVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9796C1E65FAB000E312F3 /* TextFileCSVUITests.swift */; };
+		EEB399241E94165C00053743 /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB399231E94165C00053743 /* PlayerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		EE02036E1E6D9C0D007077E6 /* csvtest.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = csvtest.csv; sourceTree = "<group>"; };
-		EE0203701E6D9E29007077E6 /* NamesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamesTableViewController.swift; sourceTree = "<group>"; };
 		EE3D4D3A1E6EFE9200019625 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		EEA979491E65FAB000E312F3 /* TextFileCSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFileCSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA9794C1E65FAB000E312F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		EEA979681E65FAB000E312F3 /* TextFileCSVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFileCSVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA9796C1E65FAB000E312F3 /* TextFileCSVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFileCSVUITests.swift; sourceTree = "<group>"; };
 		EEA9796E1E65FAB000E312F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB399231E94165C00053743 /* PlayerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 		EEA9794B1E65FAB000E312F3 /* TextFileCSV */ = {
 			isa = PBXGroup;
 			children = (
+				EEB399231E94165C00053743 /* PlayerTableViewController.swift */,
 				EEA9794C1E65FAB000E312F3 /* AppDelegate.swift */,
 				EEA979501E65FAB000E312F3 /* Main.storyboard */,
 				EEA979531E65FAB000E312F3 /* Assets.xcassets */,
 				EEA979551E65FAB000E312F3 /* LaunchScreen.storyboard */,
-				EE0203701E6D9E29007077E6 /* NamesTableViewController.swift */,
 				EE3D4D3A1E6EFE9200019625 /* Player.swift */,
 				EEA979581E65FAB000E312F3 /* Info.plist */,
 				EE02036E1E6D9C0D007077E6 /* csvtest.csv */,
@@ -267,8 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE3D4D3B1E6EFE9200019625 /* Player.swift in Sources */,
-				EE0203711E6D9E29007077E6 /* NamesTableViewController.swift in Sources */,
 				EEA9794D1E65FAB000E312F3 /* AppDelegate.swift in Sources */,
+				EEB399241E94165C00053743 /* PlayerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

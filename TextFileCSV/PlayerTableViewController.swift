@@ -1,83 +1,26 @@
 //
-//  NamesTableViewController.swift
+//  PlayerTableViewController.swift
 //  TextFileCSV
 //
-//  Created by Cheidu on 3/6/17.
+//  Created by Cheidu on 4/4/17.
 //  Copyright © 2017 Cheidu. All rights reserved.
 //
 
 import UIKit
 
-class NamesTableViewController: UITableViewController {
-    var  data:[[String:String]] = []
-    var  players = [Player]()
-    var  columnTitles:[String] = []
-    
-    @IBOutlet weak var textView: UITextView!
-    
-    @IBAction func reportData(sender: UIButton) {
-    }
-   
-
-   
-
-    
-    func cleanRows(file:String)->String{
-        var cleanFile = file
-        cleanFile = cleanFile.replacingOccurrences(of: "\r", with: "\n")
-        cleanFile = cleanFile.replacingOccurrences(of: "\n\n", with: "\n")
-        return cleanFile
-    }
-    
-    func convertCSV(file:String){
-        let rows = cleanRows(file: file).componentsSeparatedByString("\n")
-        if rows.count > 0 {
-            data = []
-            columnTitles = getStringFieldsForRow(rows.first!,delimiter:",")
-            for row in rows{
-                let fields = getStringFieldsForRow(row,delimiter: ",")
-                if fields.count != columnTitles.count {continue}
-                var dataRow = [String:String]()
-                for (index,field) in fields.enumerate(){
-                    dataRow[columnTitles[index]] = field
-                }
-                data += [dataRow]
-            }
-        } else {
-            print("No data in file")
-        }
-        }
-
-
-    
-    func getStringFieldsForRow(row:String, delimiter:String)-> [String]{
-        return row.componentsSeparatedByString(delimiter)
-        }
-
+class PlayerTableViewController: UITableViewController {
+    var player = [Player]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        func printData(){
-            convertCSV(file: textView.text)
-            var tableString = ""
-            var rowString = ""
-            print("data: \(data)")
-            for row in data{
-                rowString = ""
-                for fieldName in columnTitles{
-                    guard let field = row[fieldName] else{
-                        print("field not found: \(fieldName)")
-                        continue
-                    }
-                    rowString += field + "\t"
-                }
-                tableString += rowString + "\n"
+        if let path = Bundle.main.path(forResource: "csvtest", ofType: "csv") {
+            do {
+                let data = try String(contentsOfFile: path, encoding: .utf8)
+                let myStrings = data.components(separatedBy: .newlines)
+                print(myStrings)
+            } catch {
+                print(error)
             }
-            textView.text = tableString
         }
-    }
-
-
-
 
 
         // Uncomment the following line to preserve selection between presentations
@@ -85,7 +28,7 @@ class NamesTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
