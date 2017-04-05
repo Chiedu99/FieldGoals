@@ -4,7 +4,7 @@
 //
 //  Created by Cheidu on 4/4/17.
 //  Copyright © 2017 Cheidu. All rights reserved.
-//
+//  The purpose of this file is to read the csv file, seperating the names of the players and their data
 
 import UIKit
 
@@ -12,8 +12,11 @@ class PlayerTableViewController: UITableViewController {
     var player = [Player]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Estblishes a path to the correct csv file. 
+        // got from http://stackoverflow.com/questions/31778700/read-a-text-file-line-by-line-in-swift
         if let path = Bundle.main.path(forResource: "csvtest", ofType: "csv") {
             do {
+                //These lines read the csv file and prints it out, seperating the array every new line
                 let data = try String(contentsOfFile: path, encoding: .utf8)
                 let myStrings = data.components(separatedBy: .newlines)
                 print(myStrings)
