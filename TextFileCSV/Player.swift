@@ -10,8 +10,8 @@ import Foundation
 
 class Player {
     // define the name and data of the player as a string and float respectively
-    let name: String
-    let data: [Float]
+    var name: String
+    var data: [Float]
     
     // creates the instance of both name and data
     init(name: String, data: [Float]) {
