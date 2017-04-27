@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE02036F1E6D9C0D007077E6 /* csvtest.csv in Resources */ = {isa = PBXBuildFile; fileRef = EE02036E1E6D9C0D007077E6 /* csvtest.csv */; };
 		EE3D4D3B1E6EFE9200019625 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D4D3A1E6EFE9200019625 /* Player.swift */; };
+		EE6E0DC71EA698570003991B /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6E0DC61EA698570003991B /* BarChartViewController.swift */; };
 		EE71B4DF1EA533D3007D3CD8 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE71B4DC1EA53389007D3CD8 /* Charts.framework */; };
 		EE71B4E01EA533D3007D3CD8 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE71B4DC1EA53389007D3CD8 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EEA9794D1E65FAB000E312F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9794C1E65FAB000E312F3 /* AppDelegate.swift */; };
@@ -75,6 +76,7 @@
 /* Begin PBXFileReference section */
 		EE02036E1E6D9C0D007077E6 /* csvtest.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = csvtest.csv; sourceTree = "<group>"; };
 		EE3D4D3A1E6EFE9200019625 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EE6E0DC61EA698570003991B /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
 		EE71B4D61EA53389007D3CD8 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "Charts-master/Charts.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		EEA979491E65FAB000E312F3 /* TextFileCSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFileCSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA9794C1E65FAB000E312F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				EEB399231E94165C00053743 /* PlayerTableViewController.swift */,
 				EEA9794C1E65FAB000E312F3 /* AppDelegate.swift */,
 				EEA979501E65FAB000E312F3 /* Main.storyboard */,
+				EE6E0DC61EA698570003991B /* BarChartViewController.swift */,
 				EEA979531E65FAB000E312F3 /* Assets.xcassets */,
 				EEA979551E65FAB000E312F3 /* LaunchScreen.storyboard */,
 				EE3D4D3A1E6EFE9200019625 /* Player.swift */,
@@ -341,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE3D4D3B1E6EFE9200019625 /* Player.swift in Sources */,
+				EE6E0DC71EA698570003991B /* BarChartViewController.swift in Sources */,
 				EEA9794D1E65FAB000E312F3 /* AppDelegate.swift in Sources */,
 				EEB399241E94165C00053743 /* PlayerTableViewController.swift in Sources */,
 			);

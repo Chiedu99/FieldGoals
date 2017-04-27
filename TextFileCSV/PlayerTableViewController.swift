@@ -24,11 +24,11 @@ class PlayerTableViewController: UITableViewController {
                     print(newPlayer)
                     let playerName = newPlayer[0]
                     // creates a new array that holds all the data
-                    var floatsA = [Float]()
+                    var floatsA = [Double]()
                     // adds the data to the array as long as it holds more than one piece of data, to avoid blanks
                     if newPlayer.count > 1{
                         for numbers in newPlayer[1...newPlayer.count - 1] {
-                            floatsA.append(Float(numbers)!)
+                            floatsA.append(Double(Float(numbers)!))
                         }
                     }
                     let myPlayer = Player(name: playerName, data: floatsA)
@@ -124,14 +124,22 @@ class PlayerTableViewController: UITableViewController {
      }
      */
     
-    /*
+    
      // MARK: - Navigation
      
      // In a storyboard-based application, you will often want to do a little preparation before navigation
+    // http://stackoverflow.com/questions/39998358/ios-swift-passing-data-from-tableview-to-view-controller
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showGraph" {
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                let controller = segue.destination as! BarChartViewController
+                let value = player[indexPath.row]
+                controller.currentPlayer = value
+            }
      // Get the new view controller using segue.destinationViewController.
      // Pass the selected object to the new view controller.
      }
-     */
+ 
     
+}
 }
