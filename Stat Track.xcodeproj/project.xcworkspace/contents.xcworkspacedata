@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TextFileCSV.xcodeproj">
+      location = "self:/Users/cheidu/Desktop/Stat Track/Stat Track.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE02036F1E6D9C0D007077E6 /* csvtest.csv in Resources */ = {isa = PBXBuildFile; fileRef = EE02036E1E6D9C0D007077E6 /* csvtest.csv */; };
-		EE3D4D3B1E6EFE9200019625 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D4D3A1E6EFE9200019625 /* Player.swift */; };
-		EE6E0DC71EA698570003991B /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6E0DC61EA698570003991B /* BarChartViewController.swift */; };
 		EE71B4DF1EA533D3007D3CD8 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE71B4DC1EA53389007D3CD8 /* Charts.framework */; };
 		EE71B4E01EA533D3007D3CD8 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE71B4DC1EA53389007D3CD8 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EEA9794D1E65FAB000E312F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9794C1E65FAB000E312F3 /* AppDelegate.swift */; };
-		EEA979521E65FAB000E312F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA979501E65FAB000E312F3 /* Main.storyboard */; };
 		EEA979541E65FAB000E312F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA979531E65FAB000E312F3 /* Assets.xcassets */; };
 		EEA979571E65FAB000E312F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA979551E65FAB000E312F3 /* LaunchScreen.storyboard */; };
 		EEA979621E65FAB000E312F3 /* TextFileCSVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA979611E65FAB000E312F3 /* TextFileCSVTests.swift */; };
 		EEA9796D1E65FAB000E312F3 /* TextFileCSVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9796C1E65FAB000E312F3 /* TextFileCSVUITests.swift */; };
-		EEB399241E94165C00053743 /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB399231E94165C00053743 /* PlayerTableViewController.swift */; };
+		EECD6FA01EC0F60A002A0BA6 /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD6F9F1EC0F60A002A0BA6 /* PlayerTableViewController.swift */; };
+		EECD6FA31EC0F626002A0BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECD6FA11EC0F626002A0BA6 /* Main.storyboard */; };
+		EECD6FA51EC0F68D002A0BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD6FA41EC0F68D002A0BA6 /* AppDelegate.swift */; };
+		EECD6FA71EC0F69A002A0BA6 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD6FA61EC0F69A002A0BA6 /* BarChartViewController.swift */; };
+		EECD6FA91EC0F6A7002A0BA6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD6FA81EC0F6A7002A0BA6 /* Player.swift */; };
+		EECD6FAB1EC0F6B7002A0BA6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EECD6FAA1EC0F6B7002A0BA6 /* Info.plist */; };
+		EECD6FAD1EC0F6C3002A0BA6 /* csvtest.csv in Resources */ = {isa = PBXBuildFile; fileRef = EECD6FAC1EC0F6C3002A0BA6 /* csvtest.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,23 +75,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EE02036E1E6D9C0D007077E6 /* csvtest.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = csvtest.csv; sourceTree = "<group>"; };
-		EE3D4D3A1E6EFE9200019625 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		EE6E0DC61EA698570003991B /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
 		EE71B4D61EA53389007D3CD8 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "Charts-master/Charts.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		EEA979491E65FAB000E312F3 /* TextFileCSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFileCSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEA9794C1E65FAB000E312F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEA979511E65FAB000E312F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEA979491E65FAB000E312F3 /* Stat Track.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stat Track.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA979531E65FAB000E312F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEA979561E65FAB000E312F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EEA979581E65FAB000E312F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEA9795D1E65FAB000E312F3 /* TextFileCSVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFileCSVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA9795D1E65FAB000E312F3 /* Stat TrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stat TrackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA979611E65FAB000E312F3 /* TextFileCSVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFileCSVTests.swift; sourceTree = "<group>"; };
 		EEA979631E65FAB000E312F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEA979681E65FAB000E312F3 /* TextFileCSVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFileCSVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA979681E65FAB000E312F3 /* Stat TrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stat TrackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA9796C1E65FAB000E312F3 /* TextFileCSVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFileCSVUITests.swift; sourceTree = "<group>"; };
 		EEA9796E1E65FAB000E312F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEB399231E94165C00053743 /* PlayerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTableViewController.swift; sourceTree = "<group>"; };
+		EECD6F9F1EC0F60A002A0BA6 /* PlayerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerTableViewController.swift; path = "Stat Track/PlayerTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		EECD6FA21EC0F626002A0BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Stat Track/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		EECD6FA41EC0F68D002A0BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Stat Track/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		EECD6FA61EC0F69A002A0BA6 /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarChartViewController.swift; path = "Stat Track/BarChartViewController.swift"; sourceTree = SOURCE_ROOT; };
+		EECD6FA81EC0F6A7002A0BA6 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "Stat Track/Player.swift"; sourceTree = SOURCE_ROOT; };
+		EECD6FAA1EC0F6B7002A0BA6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Stat Track/Info.plist"; sourceTree = SOURCE_ROOT; };
+		EECD6FAC1EC0F6C3002A0BA6 /* csvtest.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = csvtest.csv; path = "Stat Track/csvtest.csv"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +132,7 @@
 		EEA979401E65FAB000E312F3 = {
 			isa = PBXGroup;
 			children = (
-				EEA9794B1E65FAB000E312F3 /* TextFileCSV */,
+				EEA9794B1E65FAB000E312F3 /* Stat Track */,
 				EEA979601E65FAB000E312F3 /* TextFileCSVTests */,
 				EEA9796B1E65FAB000E312F3 /* TextFileCSVUITests */,
 				EEA9794A1E65FAB000E312F3 /* Products */,
@@ -141,27 +142,28 @@
 		EEA9794A1E65FAB000E312F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EEA979491E65FAB000E312F3 /* TextFileCSV.app */,
-				EEA9795D1E65FAB000E312F3 /* TextFileCSVTests.xctest */,
-				EEA979681E65FAB000E312F3 /* TextFileCSVUITests.xctest */,
+				EEA979491E65FAB000E312F3 /* Stat Track.app */,
+				EEA9795D1E65FAB000E312F3 /* Stat TrackTests.xctest */,
+				EEA979681E65FAB000E312F3 /* Stat TrackUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EEA9794B1E65FAB000E312F3 /* TextFileCSV */ = {
+		EEA9794B1E65FAB000E312F3 /* Stat Track */ = {
 			isa = PBXGroup;
 			children = (
-				EEB399231E94165C00053743 /* PlayerTableViewController.swift */,
-				EEA9794C1E65FAB000E312F3 /* AppDelegate.swift */,
-				EEA979501E65FAB000E312F3 /* Main.storyboard */,
-				EE6E0DC61EA698570003991B /* BarChartViewController.swift */,
+				EECD6F9F1EC0F60A002A0BA6 /* PlayerTableViewController.swift */,
+				EECD6FA41EC0F68D002A0BA6 /* AppDelegate.swift */,
+				EECD6FA61EC0F69A002A0BA6 /* BarChartViewController.swift */,
+				EECD6FA11EC0F626002A0BA6 /* Main.storyboard */,
 				EEA979531E65FAB000E312F3 /* Assets.xcassets */,
 				EEA979551E65FAB000E312F3 /* LaunchScreen.storyboard */,
-				EE3D4D3A1E6EFE9200019625 /* Player.swift */,
-				EEA979581E65FAB000E312F3 /* Info.plist */,
-				EE02036E1E6D9C0D007077E6 /* csvtest.csv */,
+				EECD6FA81EC0F6A7002A0BA6 /* Player.swift */,
+				EECD6FAA1EC0F6B7002A0BA6 /* Info.plist */,
+				EECD6FAC1EC0F6C3002A0BA6 /* csvtest.csv */,
 				EE71B4D61EA53389007D3CD8 /* Charts.xcodeproj */,
 			);
+			name = "Stat Track";
 			path = TextFileCSV;
 			sourceTree = "<group>";
 		};
@@ -186,9 +188,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EEA979481E65FAB000E312F3 /* TextFileCSV */ = {
+		EEA979481E65FAB000E312F3 /* Stat Track */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEA979711E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "TextFileCSV" */;
+			buildConfigurationList = EEA979711E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "Stat Track" */;
 			buildPhases = (
 				EEA979451E65FAB000E312F3 /* Sources */,
 				EEA979461E65FAB000E312F3 /* Frameworks */,
@@ -200,14 +202,14 @@
 			dependencies = (
 				EE71B4E21EA533D3007D3CD8 /* PBXTargetDependency */,
 			);
-			name = TextFileCSV;
+			name = "Stat Track";
 			productName = TextFileCSV;
-			productReference = EEA979491E65FAB000E312F3 /* TextFileCSV.app */;
+			productReference = EEA979491E65FAB000E312F3 /* Stat Track.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EEA9795C1E65FAB000E312F3 /* TextFileCSVTests */ = {
+		EEA9795C1E65FAB000E312F3 /* Stat TrackTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEA979741E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "TextFileCSVTests" */;
+			buildConfigurationList = EEA979741E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "Stat TrackTests" */;
 			buildPhases = (
 				EEA979591E65FAB000E312F3 /* Sources */,
 				EEA9795A1E65FAB000E312F3 /* Frameworks */,
@@ -218,14 +220,14 @@
 			dependencies = (
 				EEA9795F1E65FAB000E312F3 /* PBXTargetDependency */,
 			);
-			name = TextFileCSVTests;
+			name = "Stat TrackTests";
 			productName = TextFileCSVTests;
-			productReference = EEA9795D1E65FAB000E312F3 /* TextFileCSVTests.xctest */;
+			productReference = EEA9795D1E65FAB000E312F3 /* Stat TrackTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EEA979671E65FAB000E312F3 /* TextFileCSVUITests */ = {
+		EEA979671E65FAB000E312F3 /* Stat TrackUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEA979771E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "TextFileCSVUITests" */;
+			buildConfigurationList = EEA979771E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "Stat TrackUITests" */;
 			buildPhases = (
 				EEA979641E65FAB000E312F3 /* Sources */,
 				EEA979651E65FAB000E312F3 /* Frameworks */,
@@ -236,9 +238,9 @@
 			dependencies = (
 				EEA9796A1E65FAB000E312F3 /* PBXTargetDependency */,
 			);
-			name = TextFileCSVUITests;
+			name = "Stat TrackUITests";
 			productName = TextFileCSVUITests;
-			productReference = EEA979681E65FAB000E312F3 /* TextFileCSVUITests.xctest */;
+			productReference = EEA979681E65FAB000E312F3 /* Stat TrackUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -253,6 +255,7 @@
 				TargetAttributes = {
 					EEA979481E65FAB000E312F3 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 64643K84XW;
 						ProvisioningStyle = Automatic;
 					};
 					EEA9795C1E65FAB000E312F3 = {
@@ -267,7 +270,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EEA979441E65FAB000E312F3 /* Build configuration list for PBXProject "TextFileCSV" */;
+			buildConfigurationList = EEA979441E65FAB000E312F3 /* Build configuration list for PBXProject "Stat Track" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -286,9 +289,9 @@
 			);
 			projectRoot = "";
 			targets = (
-				EEA979481E65FAB000E312F3 /* TextFileCSV */,
-				EEA9795C1E65FAB000E312F3 /* TextFileCSVTests */,
-				EEA979671E65FAB000E312F3 /* TextFileCSVUITests */,
+				EEA979481E65FAB000E312F3 /* Stat Track */,
+				EEA9795C1E65FAB000E312F3 /* Stat TrackTests */,
+				EEA979671E65FAB000E312F3 /* Stat TrackUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -316,9 +319,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEA979571E65FAB000E312F3 /* LaunchScreen.storyboard in Resources */,
-				EE02036F1E6D9C0D007077E6 /* csvtest.csv in Resources */,
 				EEA979541E65FAB000E312F3 /* Assets.xcassets in Resources */,
-				EEA979521E65FAB000E312F3 /* Main.storyboard in Resources */,
+				EECD6FAB1EC0F6B7002A0BA6 /* Info.plist in Resources */,
+				EECD6FAD1EC0F6C3002A0BA6 /* csvtest.csv in Resources */,
+				EECD6FA31EC0F626002A0BA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,10 +347,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3D4D3B1E6EFE9200019625 /* Player.swift in Sources */,
-				EE6E0DC71EA698570003991B /* BarChartViewController.swift in Sources */,
-				EEA9794D1E65FAB000E312F3 /* AppDelegate.swift in Sources */,
-				EEB399241E94165C00053743 /* PlayerTableViewController.swift in Sources */,
+				EECD6FA91EC0F6A7002A0BA6 /* Player.swift in Sources */,
+				EECD6FA51EC0F68D002A0BA6 /* AppDelegate.swift in Sources */,
+				EECD6FA71EC0F69A002A0BA6 /* BarChartViewController.swift in Sources */,
+				EECD6FA01EC0F60A002A0BA6 /* PlayerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,31 +380,31 @@
 		};
 		EEA9795F1E65FAB000E312F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EEA979481E65FAB000E312F3 /* TextFileCSV */;
+			target = EEA979481E65FAB000E312F3 /* Stat Track */;
 			targetProxy = EEA9795E1E65FAB000E312F3 /* PBXContainerItemProxy */;
 		};
 		EEA9796A1E65FAB000E312F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EEA979481E65FAB000E312F3 /* TextFileCSV */;
+			target = EEA979481E65FAB000E312F3 /* Stat Track */;
 			targetProxy = EEA979691E65FAB000E312F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EEA979501E65FAB000E312F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEA979511E65FAB000E312F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEA979551E65FAB000E312F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EEA979561E65FAB000E312F3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EECD6FA11EC0F626002A0BA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECD6FA21EC0F626002A0BA6 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -504,9 +508,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TextFileCSV/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 64643K84XW;
+				INFOPLIST_FILE = "Stat Track/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.chiedu.TextFileCSV;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -517,9 +523,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TextFileCSV/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 64643K84XW;
+				INFOPLIST_FILE = "Stat Track/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.chiedu.TextFileCSV;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -535,7 +543,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.chiedu.TextFileCSVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFileCSV.app/TextFileCSV";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stat Track.app/Stat Track";
 			};
 			name = Debug;
 		};
@@ -549,7 +557,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.chiedu.TextFileCSVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFileCSV.app/TextFileCSV";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stat Track.app/Stat Track";
 			};
 			name = Release;
 		};
@@ -582,7 +590,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EEA979441E65FAB000E312F3 /* Build configuration list for PBXProject "TextFileCSV" */ = {
+		EEA979441E65FAB000E312F3 /* Build configuration list for PBXProject "Stat Track" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEA9796F1E65FAB000E312F3 /* Debug */,
@@ -591,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEA979711E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "TextFileCSV" */ = {
+		EEA979711E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "Stat Track" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEA979721E65FAB000E312F3 /* Debug */,
@@ -600,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEA979741E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "TextFileCSVTests" */ = {
+		EEA979741E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "Stat TrackTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEA979751E65FAB000E312F3 /* Debug */,
@@ -609,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEA979771E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "TextFileCSVUITests" */ = {
+		EEA979771E65FAB000E312F3 /* Build configuration list for PBXNativeTarget "Stat TrackUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEA979781E65FAB000E312F3 /* Debug */,
